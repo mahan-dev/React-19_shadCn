@@ -19,9 +19,18 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/app/*": ["./app/*"],
+
+      "@/core/*": ["./core/*"],
+
+      "@/components/*": ["./core/components/*"],
+      "@/templates/*": ["./core/templates/*"],
+
+      "@/components_sh/*": ["./core/shadCn/components/ui/*"]
     }
   },
+
   "include": [
     "next-env.d.ts",
     "**/*.ts",
