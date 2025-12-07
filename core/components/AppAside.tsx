@@ -1,5 +1,5 @@
-"use client"
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+"use client";
+import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
 
 import {
   Sidebar,
@@ -10,14 +10,14 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
-import Link from "next/link"
+} from "@/components/ui/sidebar";
+import Link from "next/link";
 
 // Menu items.
 const items = [
   {
     title: "Home",
-    url: "app",
+    url: "#",
     icon: Home,
   },
   {
@@ -40,7 +40,7 @@ const items = [
     url: "#",
     icon: Settings,
   },
-]
+];
 
 export function AppSidebar() {
   return (
@@ -65,5 +65,5 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
     </Sidebar>
-  )
+  );
 }

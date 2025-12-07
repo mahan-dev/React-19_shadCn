@@ -25,9 +25,10 @@
       "@/core/*": ["./core/*"],
 
       "@/components/*": ["./core/components/*"],
-      "@/templates/*": ["./core/templates/*"],
+      "@/templates/*": ["./core/components/templates/*"],
+      "@/ui/*": ["./core/components/ui/*"],
 
-      "@/components_sh/*": ["./core/shadCn/components/ui/*"]
+      "@/shadCn_lib/*": ["./core/shadCn/lib/*"]
     }
   },
 

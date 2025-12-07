@@ -1,12 +1,8 @@
-import { Button } from "@/components/ui/button";
+
+import Home from "@/templates/Home";
 
 const Page = () => {
-  return (
-    <div className="p-4">
-      <h2>hello</h2>
-      <Button>submit</Button>
-    </div>
-  );
+  return <Home />
 };
 
 export default Page;
