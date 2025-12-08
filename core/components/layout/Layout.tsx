@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <SidebarProvider>
       <AppSidebar />
       <main className="w-full">
-        <SidebarTrigger />
+        {/* <SidebarTrigger /> */}
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
