@@ -26,6 +26,8 @@
 
       "@/components/*": ["./core/components/*"],
       "@/templates/*": ["./core/components/templates/*"],
+      "@/module/*": ["./core/components/module/*"],
+      "@/theme/*": ["./core/components/theme/*"],
       "@/ui/*": ["./core/components/ui/*"],
 
       "@/shadCn_lib/*": ["./core/shadCn/lib/*"]

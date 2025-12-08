@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@/app/globals.css";
 import { ReactNode } from "react";
 import Layout from "@/core/components/layout/Layout";
+import { ThemeProvider } from "@/core/components/theme/Provider";
 
 export const metadata: Metadata = {
   title: "Project | shad cn ",
@@ -14,7 +15,7 @@ interface RootProps {
 
 export default function RootLayout({ children }: RootProps) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <Layout>{children}</Layout>
       </body>
